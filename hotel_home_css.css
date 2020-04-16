@@ -1,0 +1,556 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0; 
+}
+
+/* carousel of background  */
+
+#carousel1
+{
+    position: relative;
+    /*z-index: -1;*/
+    
+}
+
+.carousel-caption2
+{
+    position: absolute;
+    top: 50%;
+    height: 250px;
+    width:auto;
+    
+}
+
+
+.font
+{
+    font-size:80px;
+    text-align: start;
+    font-family:monospace;
+}
+
+.start
+{
+    text-align: start;
+}
+
+.header
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height:auto;
+
+}
+
+ .header_back
+{
+    width:100%;
+    height:1000px; 
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: inherit;
+    color: white;
+   overflow:hidden;
+    
+} 
+ 
+.play
+{
+    text-shadow:0 ;
+    animation-name: play-sh;
+    animation-delay: 0s;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes play-sh 
+{
+    from{text-shadow:0;}
+    to{text-shadow:
+        -7px 0px 2px #fff361 ,
+        0px -7px 2px #fff361 ,
+        7px 0px  2px #fff361 ,
+        0px 7px  2px #fff361 ;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* modal  */
+
+.modal-contentt
+{
+    position:absolute;
+    right:33%;
+    
+    
+}
+
+.navbar-nav li
+{
+    padding:0px 0 0px 0;
+    margin:0 5px 0 5px ;
+}
+
+.a2
+{
+    color: white;
+    opacity:.6;
+}
+
+.a2:hover
+{
+    color: white ; opacity: 1;
+    text-decoration: none;
+}
+
+.active 
+{
+    opacity: 1;
+}
+
+.header22
+{
+    position: fixed;
+    z-index:1;
+    top: 0px;
+    width: 100%;
+    height:auto;
+    background-color: white;
+    color:black;
+}
+
+
+
+
+
+
+
+
+/* checkin checkout */
+
+.checkin
+{
+    position: absolute;
+    top:700px;
+    background-color:
+        rgba(237,179,5,.5);
+    color: black;
+    height: 170px;
+    width: 90%;
+    left: 5%;
+    /*z-index: -1;*/
+    
+}
+
+.chickin-squa  
+{
+    background-color: white;
+    margin:5px;
+    height:120px;
+    padding:20px;
+    line-height: 30px;
+    
+    
+}
+
+.chickin-squa input
+{
+    color: black;
+    font-family: cursive;
+    width:100%;
+}
+
+.checkin-2
+{
+    background-color:black;
+    padding: 50px 0 50px 0 ;
+    text-align: center;
+}
+
+.a-checkin
+{
+    color:white;
+}
+
+.a-checkin:hover
+{
+    color:rgb(237,179,5);
+    text-decoration: none;
+}
+
+option 
+{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+/*  css hotel benefits */
+.back1
+{
+    height:250px;
+    width:30%; 
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.back-text
+{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 25%;
+}
+
+.img4
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-origin: border-box;
+    display: block;
+}
+.overlay
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+}
+
+.back1:hover  .overlay 
+{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.right-arrow
+{
+    background-color: #edb305;
+    border-radius:50%;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+/* welcome hotel */ 
+.dahbi
+{
+    color:#edb305; 
+}
+
+.dahbi:hover
+{
+    color:#edb305; 
+    text-decoration: none;
+}
+
+.white2
+{
+    color: white;
+}
+
+.welcome
+{
+    background-color:#f2f3f2;
+    font-size:40px;
+    padding:20px 10px 20px 10px;
+    margin:5px;
+    width:400px;
+    
+}
+
+ .welcome:hover  
+{
+    color:white;
+    background-color: #edb305;
+    cursor: pointer;
+}
+
+.welcome:hover .dahbi   
+{
+    color:white;
+}
+
+
+
+
+
+
+
+/* prices*/
+.back-gray 
+{
+     background-color:#f2f3f2;
+}
+
+.price_back
+{
+    background-size:cover;
+    backface-visibility: visible;
+    background-clip: border-box;
+    background-origin: border-box;
+    height: 350px;
+    width: 50%;
+    color: white;
+    position: relative; 
+}
+
+.price-pho-text
+{
+    position: absolute;
+    top:33%;
+}
+
+.price-img-pri
+{
+    
+    backface-visibility: visible;
+    background-size: cover;
+    background-origin:border-box;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.hover-back:hover
+{
+    background-color:#edb305;
+}
+
+.hover-back:hover p , .hover-back:hover .dahbi
+{
+ color: white;   
+}
+
+
+
+
+
+
+/* guest opinion  */
+.opin-back
+{
+    backface-visibility:visible;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    display: block;
+    margin: auto;
+    border-radius:50%;
+    width:16%;
+    height:150px;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.quot-icon
+{
+    background-color: white;
+    border-radius: 50%; 
+    padding: 10px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+        
+}
+
+
+
+
+
+
+
+
+
+
+/* video */
+.myvid
+{
+    position:relative;
+}
+
+.text-vid
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+   font-size:50px;
+    opacity: .5;
+    width: 550px;
+    height: 350px;
+    font-family: cursive;
+    
+
+}
+
+
+
+
+
+
+
+/* resrurant of the hotel */
+.menu-pho-wi
+{
+    width:100px;
+    height:100px;
+}
+
+.media-body h3
+{
+    width: 330px;
+}
+
+
+
+
+
+
+
+
+
+/*  read blog */ 
+.img-blog
+{
+ height: 300px 
+}
+
+
+.red-blog
+{
+    position: relative;
+   
+}
+
+
+.red-blog h6
+{
+  font-family: cursive;
+    font-size:20px;
+    margin-bottom:30px;
+    margin-top: 15pxpx;
+}
+
+
+
+
+
+
+
+
+/* instagram photo */ 
+.overlay span 
+{
+    position: absolute;
+    color:white;
+    font-size:40px;
+    padding-top:120px
+}
+
+
+.content
+{
+    width:800px;
+    height:500px;
+    position:relative;
+    background-color: transparent;
+}
+
+
+.mySlides
+{
+   width:100%;
+    height: 100%;
+    background-color: transparent;
+    display: none;
+}
+
+.next , .prev
+{
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border: 0px solid transparent ;
+    top:50%; right: 5%;
+    padding:10px;
+    font-size: 30px;
+}
+
+
+.prev
+{
+    top: 50%;
+    left: 5%;
+    
+}
+
+
+
+
+/* footer */
+.footer-icon span 
+{
+    font-size:25px;
+    margin-right: 10px;
+}
+
+.footer-link
+{
+    color:#6c757d;
+    text-decoration: none;
+    display: block;
+    font-size:20px;
+    padding-top:15px;
+    
+}
+
+.footer-link:hover
+{
+    text-decoration:none;
+    color: white;
+}
+
+.background-black , .background-black  div
+{
+    background-color: black;
+    color: gray;
+    line-height: 20px;
+    font-size:20px
+}
+

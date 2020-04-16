@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <title > HOTEL </title>
+        
+        
+        <link type="text/css" href="hotel_home_css.css" rel="stylesheet" >
+        <link type="text/css" href="font/flaticon.css" rel="stylesheet" >
+        <link rel="stylesheet" href="flaticon.css"  type="text/css">
+        
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <style>
+            
+        .form-control:focus {
+        border-color:rgba(237,179,5);
+        box-shadow: 3px 3px 2px rgba(237,179,5,.5) inset, 3px 3px 2px rgba(237,179,5,.5);
+    }
+            
+     
+     
+        
+        </style>
+
+    </head> 
+    
+    <body id="body" onload="func() ">
+        
+        <!-- carousel of background  -->
+        
+        <div id="carousel1" class="carousel  mb-0" data-ride="carousel"  data-interval="4500" style="overflow: hidden" > 
+            <ul class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active" ></li>
+                <li data-target="#carousel1" data-slide-to="1" ></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active header_back " style="background-image: url(images/bg_1.jpg)">
+                    <div class="carousel-caption carousel-caption2  d-flex " >
+                        <div class="font  mr-auto"  >
+                             <h1 class="font " >Roxandrea</h1>
+		                     <h4 >More than a hotel... an experience</h4>
+                        </div>
+                        <div class="font ">
+                            <a class="play m-4 text-white" href="#modal1" data-target="#modal1" onclick="" data-toggle="modal" >    
+                                   <i class="fa fa-play " > </i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="carousel-item header_back " style="background-image: url(images/bg_2.jpg)">
+                    <div class="carousel-caption carousel-caption2  d-flex">
+                        <div class="font mr-auto">
+                             <h1 class="font">Experience Epic Beauty</h1>
+		                     <h4>Roxandrea Hotel &amp; Resort</h4>
+                        </div>
+                        <div class=" font ">
+                            <a class="play m-4 text-white" href="#modal1" data-toggle="modal" >     
+                                <i class=" fa fa-play" > </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="carousel-item header_back" style="background-image: url(images/bg_3.jpg)"> 
+                    <div class="carousel-caption  carousel-caption2 d-flex "> 
+                        <div class="font mr-auto">
+                             <h1 class="font">Experience Epic Beauty</h1>
+		                     <h4>Roxandrea Hotel &amp; Resort</h4>
+                        </div>
+                        <div class=" font">
+                            <a class="play m-4 text-white" href="#modal1"  data-toggle="modal" >     
+                                <i class=" fa fa-play" > </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+        
+      
+        
+        
+        <!-- modal video -->
+        <div class="modal w-100 " id="modal1" >
+            <div class="modal-dialog modal-dialog-centered  ">
+                <div class="modal-content modal-contentt " >
+                    <iframe width="800" height="500" src="images/novo.mp4" class="border-0 m-0 p-0 "> 
+                        
+                    </iframe>
+                </div>
+            </div>
+        </div>
+       
+        
+        
+        
+        <!--navigation bar -->
+        <div class="header" id="myheader" >
+            <div class="container ">
+                <div class="d-flex justify-content-center  w-100  ">
+                    <div class="navbar  navbar-expand-md text-center   w-100 ">
+                        <a class="navbar-brand mr-auto a2  active d-inline-block"  href="hotel_home_page.html">
+                            <h4 id="brand"> ROXANDREA</h4> </a>
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item  "> <a class="nav-link active a2 "  href="hotel_home_page.html"> HOME </a></li>
+                            <li class="nav-item"> <a class="nav-link a2 " href="#"> ROOMS </a></li>
+                            <li class="nav-item"> <a class="nav-link a2" href="#"> RESTAURANT </a></li>
+                            <li class="nav-item"> <a class="nav-link a2" href="#"> ABOUT</a></li>
+                            <li class="nav-item"> <a class="nav-link a2" href="#"> BLOG</a></li>
+                            <li class="nav-item"> <a class="nav-link a2" href="#"> CONTACTS</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        <!-- check-in  check-out   -->
+        
+        <div class="checkin d-flex m-0 p-0   ">
+            <div class="pl-2 pr-2 w-100">
+                <div class="d-flex    h-100 w-100   ">
+                    <div class="w-75  pr-2 align-self-center ">
+                        <div class="d-flex    ">
+                            <div class="w-25 chickin-squa form-group  " >
+                                <label class="text-dark font-weight-bold "> CHECK-IN DATE </label>
+                                <input type="date" class="border-0  form-control" placeholder="Check-in date">
+                            </div>
+                            <div class=" w-25 chickin-squa  form-group  ">
+                                <label class="text-dark font-weight-bold "> CHECK-OUT DATE </label>
+                                <input type="date" class=" form-control border-0  " placeholder="Check-in date">
+                            </div>
+                            <div class=" w-25 chickin-squa form-group  " >
+                                <label class="text-dark font-weight-bold"> ROoMS </label>
+                                <select class="form-control border-0 font-weight-bold p-0 shad"  id=""> 
+                                    <option  value="">Suite</option>
+			                        <option  value="">Family Room</option>
+			                        <option  value="">Deluxe Room</option>
+			                        <option  value="">Classic Room</option>
+			                        <option  value="">Superior Room</option>
+			                        <option  value="">Luxury Room</option>
+                                </select>
+                                
+                            </div>
+                            <div class=" w-25 chickin-squa form-group  " >
+                                <label class="text-dark font-weight-bold">GUESTS  </label>
+                                <select class="form-control border-0 font-weight-bold p-0 "  id="">
+                                    <option value="">1 Adult</option>
+			                        <option value="">2 Adult</option>
+			                        <option value="">3 Adult</option>
+			                        <option value="">4 Adult</option>
+			                        <option value="">5 Adult</option>
+			                        <option value="">6 Adult</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-25    checkin-2">
+                        <a class=" a-checkin active  " href="#" > Check Availability  </a> <br>
+                        <a class=" a-checkin " href="#" > Best Price Guaranteed! </a>
+                        <a> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- hotel benefits -->
+        <div class=" container">
+            <div class="d-flex "> 
+                <div class="w-25 back1" style="background-image: url(images/room-3.jpg)" >
+                    <div class="back-text  align-self-end text-white "> 
+                        <h6>SPECIAL ROOMS </h6>
+                    </div>
+                    
+                    <div class="overlay">
+                        <a href="#"> </a>
+                    </div>
+                </div>
+                
+                <div class="w-25  back1 "  style="background-image: url(images/swimming-pool.jpg)" >
+                    <div class="back-text text-white "> 
+                        <h6>SWIMMING POOL </h6>
+                    </div>
+                    <div class="overlay">
+                        <a class="" href="#"> </a>
+                    </div>
+                </div>
+                
+                <div class="w-25  back1"  style="background-image: url(images/resto.jpg)" >
+                    <div class="back-text text-white  "> 
+                        <h6>RESTAURANT </h6>
+                    </div>
+                     <div class="overlay">
+                        <a class="" href="#"> </a>
+                    </div>
+                </div>
+                
+                <div class="w-25  back1" style="background-image: url(images/sleep.jpg)"  >
+                    <div class="back-text text-center mb-4 text-white  ">
+                        <h5> SUITS AND ROOMS</h5>
+                        <p class="text-secondary"> SPECIAL ROOMS </p>
+                        <div class=""> <i class="fa fa-arrow-right right-arrow"></i> </div>
+                        
+                    </div>
+                     <div class="overlay">
+                        <a class="" href="#"> </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        <!--welcome to hotel -->
+        <div class=" container text-center  mt-5 mb-5"> 
+            <div class="w-100 p-5"> 
+                <p class="dahbi"> WELCOME TO ROXANDREA HOTEL</p>
+                <h2>A New Vision of Luxury Hotel</h2>
+            </div>
+            
+            <div class="d-flex mb-5"> 
+                <div class="flex-fill welcome">
+                    <div class="dahbi" > <i class="flaticon-reception-bell  " > </i></div>
+                    <h5 class="welcome-item ">Friendly Service </h5>
+                </div>
+                <div class="flex-fill welcome">
+                    <div class="dahbi" > <i class="flaticon-food-tray icon "> </i> </div>
+                    <h5 class="welcome-item"> Get Breakfast </h5>
+                </div>
+                <div class="flex-fill welcome">
+                    <div class="dahbi" > <i class="flaticon-car icon " > </i></div>
+                    <h5 class="welcome-item" >Transfer Services </h5>
+                </div>
+                <div class="flex-fill welcome">
+                    <div class="dahbi" > <i class="flaticon-spa icon "> </i></div>
+                    <h5 class="welcome-item">Suits & SPA</h5>
+                </div>
+                <div class="  flex-fill welcome">
+                    <div class="dahbi" > <i class="flaticon-bed icon "> </i></div>
+                    <h5 class="welcome-item">Cozy Rooms</h5>
+                </div>
+                
+            
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- prices -->
+        <div class="w-100 "  >
+            <div class="d-flex flex-wrap m-0 w-100" >
+                <div class="w-100 ">
+                    <div class="text-center back-gray p-5 ">
+                        <p class="dahbi"> ROXANDREA ROOMS </p>
+                        <h2> Hotel Master's Rooms </h2>
+                    </div>
+                            
+                </div>
+                <div class="w-50 price_back " style="background-image:url(images/bg_3.jpg) ">
+                    <div class="text-center p-5  price-pho-text"> 
+                        <h2> Welcome to <span class="dahbi" > Roxandrea </span> Hotel</h2>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="w-50 d-flex hover-back" > 
+                    <a class="price-img-pri" href="#" style="background-image:url(images/room-1.jpg);" ></a>
+                    <div class="w-50 pt-5  pb-5 text-center " > 
+                        <p class="dahbi mb-4"> <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        <span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        </p>
+                        <h2 class="dahbi d-inline mb-4 font-weight-bolder"> $120  </h2> 
+                        <span class="text-dark mb-4"> Per Night</span>
+                        <h2 class="mt-4 mb-4"> Suite Room </h2>
+                        <button type="button " class="border bg-white p-2 " > View Room Details  
+                        <i class="fa fa-arrow-right"></i>
+                        </button>
+                       
+                    </div>
+                
+                </div>
+                
+                <div class="w-50 d-flex hover-back" > 
+                    <div class="w-50 pt-5  pb-5 text-center " > 
+                        <p class="dahbi mb-4"> <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        <span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        </p>
+                        <h2 class="dahbi d-inline mb-4 font-weight-bolder"> $1200  </h2> 
+                        <span class="text-dark mb-4"> Per Night</span>
+                        <h2 class="mt-4 mb-4"> Family Room </h2>
+                        <button type="button " class="border bg-white p-2 " > View Room Details  
+                        <i class="fa fa-arrow-right"></i>
+                        </button>
+                       
+                    </div>
+                    
+                    <a class="price-img-pri" href="#" style="background-image:url(images/room-2.jpg);"></a>
+                    
+                
+                </div>
+                
+                <div class="w-50 d-flex hover-back" > 
+                    <div class="w-50 pt-5  pb-5 text-center " > 
+                        <p class="dahbi mb-4"> <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        <span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        </p>
+                        <h2 class="dahbi d-inline mb-4 font-weight-bolder"> $12000  </h2> 
+                        <span class="text-dark mb-4"> Per Night</span>
+                        <h2 class="mt-4 mb-4"> Luxury Room </h2>
+                        <button type="button " class="border bg-white p-2 " > View Room Details  
+                        <i class="fa fa-arrow-right"></i>
+                        </button>
+                       
+                    </div>
+                    
+                    <a class="price-img-pri" href="#" style="background-image:url(images/room-3.jpg);"></a>
+                    
+                </div>
+                
+                <div class="w-50 d-flex hover-back" > 
+                   <a class="price-img-pri" href="#" style="background-image:url(images/room-4.jpg);" ></a>
+                    <div class="w-50 pt-5  pb-5 text-center " > 
+                        <p class="dahbi mb-4"> <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        <span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        </p>
+                        <h2 class="dahbi d-inline mb-4 font-weight-bolder"> $12000  </h2> 
+                        <span class="text-dark mb-4"> Per Night</span>
+                        <h2 class="mt-4 mb-4"> Deluxe Room </h2>
+                        <button type="button " class="border bg-white p-2 " > View Room Details  
+                        <i class="fa fa-arrow-right"></i>
+                        </button>
+                       
+                    </div>
+                
+                </div>
+                
+                <div class="w-50 d-flex hover-back" > 
+                    <a class="price-img-pri" href="#" style="background-image:url(images/room-5.jpg);" ></a>
+                    <div class="w-50 pt-5  pb-5 text-center " > 
+                        <p class="dahbi mb-4"> <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        <span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                        </p>
+                        <h2 class="dahbi d-inline mb-4 font-weight-bolder"> $120  </h2> 
+                        <span class="text-dark mb-4"> Per Night</span>
+                        <h2 class="mt-4 mb-4"> Superior Room </h2>
+                        <button type="button " class="border bg-white p-2 " > View Room Details  
+                        <i class="fa fa-arrow-right"></i>
+                        </button>
+                       
+                    </div>
+                
+                </div>
+                
+            </div> 
+        </div>
+        
+        
+        
+        
+        
+        <!-- Guset opinion --> 
+        <div class=" back-gray">
+            <div class="d-flex  flex-wrap  justify-content-center text-center ">
+                <div class="w-100 m-3 p-5">
+                     <p class="dahbi"> TESTIMONY </p>
+                     <h2> Our Happy Guest Says </h2>
+                </div>
+                
+                <div id="carousel2" class="carousel slide w-75 m-2 p-5" data-ride="carousel" data-interval="3000">
+                    <ul class="carousel-indicators"> 
+                        <li data-target="#carousel2" data-slide-to="0" class="active" ></li>
+                        <li data-target="#carousel2" data-slide-to="1"></li>
+                        <li data-target="#carousel2" data-slide-to="2" ></li>
+                        <li data-target="#carousel2" data-slide-to="3" ></li>
+                        <li data-target="#carousel2" data-slide-to="4" ></li>                 
+                    </ul>
+                    
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active  ">
+                            <div class="opin-back dahbi" style="background-image: url(images/person_1.jpg)">
+                               <i class="fa fa-quote-left dahbi quot-icon "></i>
+                            </div>
+                            <div class="dahbi pt-2">
+                                 <p class=""> 
+                                     <span class="fa fa-star"> </span> <span class="fa fa-star"> </span><span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                                 </p>
+                            </div>
+
+                            <div class="text-secondary " > 
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                        <p class="text-dark font-weight-bolder">Nathan Smith</p>
+		                        <span >Guests</span>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item  ">
+                            <div class="opin-back dahbi" style="background-image: url(images/person_2.jpg)">
+                               <i class="fa fa-quote-left dahbi quot-icon "></i>
+                            </div>
+                            <div class="dahbi pt-2">
+                                 <p class=""> 
+                                     <span class="fa fa-star"> </span> <span class="fa fa-star"> </span><span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                                 </p>
+                            </div>
+
+                            <div class="text-secondary  " > 
+                                <p >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                        <p class="text-dark font-weight-bolder">Nathan Smith</p>
+		                        <span >Guests</span>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item   ">
+                            <div class="opin-back dahbi" style="background-image: url(images/person_3.jpg)">
+                               <i class="fa fa-quote-left dahbi quot-icon "></i>
+                            </div>
+                            <div class="dahbi pt-2">
+                                 <p class=""> 
+                                     <span class="fa fa-star"> </span> <span class="fa fa-star"> </span><span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                                 </p>
+                            </div>
+
+                            <div class="text-secondary  " > 
+                                <p >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                        <p class="text-dark font-weight-bolder">Nathan Smith</p>
+		                        <span >Guests</span>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item  ">
+                            <div class="opin-back dahbi" style="background-image: url(images/person_4.jpg)">
+                               <i class="fa fa-quote-left dahbi quot-icon "></i>
+                            </div>
+                            <div class="dahbi pt-2">
+                                 <p class=""> 
+                                     <span class="fa fa-star"> </span> <span class="fa fa-star"> </span><span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                                 </p>
+                            </div>
+
+                            <div class="text-secondary  " > 
+                                <p >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                        <p class="text-dark font-weight-bolder">Nathan Smith</p>
+		                        <span >Guests</span>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item   ">
+                            <div class="opin-back dahbi" style="background-image: url(images/person_1.jpg)">
+                               <i class="fa fa-quote-left dahbi quot-icon "></i>
+                            </div>
+                            <div class="dahbi pt-2">
+                                 <p class=""> 
+                                     <span class="fa fa-star"> </span> <span class="fa fa-star"> </span><span class="fa fa-star"> </span>  <span class="fa fa-star"> </span> <span class="fa fa-star"> </span>
+                                 </p>
+                            </div>
+
+                            <div class="text-secondary  " > 
+                                <p >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                        <p class="text-dark font-weight-bolder">Nathan Smith</p>
+		                        <span >Guests</span>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        <!-- video -->
+        <div class="d-flex w-100 mb-5"> 
+            <div class="w-100 myvid" >
+                <video class="border-0 m-0 p-0 w-100 " autoplay muted loop id="" >
+                    <source src="images/novo.mp4" type="video/mp4" >
+                </video>
+                <div class="text-light text-vid  display-1"> 
+                    <p > We're Most Recommended Hotel </p>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        <!-- restaurant of the hotel  -->
+        <div class="w-100 h-100 back1" style="background-image: url(images/restaurant-pattern.jpg)"> 
+            <div class="d-flex flex-wrap justify-content-center">
+                
+                <div class="w-100 ">
+                    <div class="m-3 p-5 text-center">
+                        <p class="dahbi"> RESTAURANT </p>
+                        <h2> Restaurant  </h2>
+                    </div>
+                </div>
+                
+                <div class="m-3 shadow  ">
+                    <div class="media border p-4">
+                        <div class="media-body mr-2">
+                            <p class="dahbi d-inline-block font-weight-bolder mr-5 "> $20.00 </p>
+                            <h3 class="d-inline-block "> Grilled Crab with Onion </h3> 
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+                        <img src="images/menu-1.jpg" class="rounded-circle menu-pho-wi " >
+                    </div>
+                </div>
+                
+                <div class="m-3 shadow">
+                    <div class="media border p-4">
+                        <img src="images/menu-2.jpg" class="rounded-circle menu-pho-wi ml-2 mr-2" >
+                        <div class="media-body ml-2 ">
+                            <h3 class="d-inline-block "> Grilled Beef with potatoes</h3> 
+                            <p class="dahbi d-inline-block  font-weight-bolder ml-5 text-end"> $27.63</p>
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class=" m-3 shadow  ">
+                    <div class="media border p-4">
+                        <div class="media-body mr-2">
+                            <p class="dahbi d-inline-block font-weight-bolder mr-5 "> $82.00 </p>
+                            <h3 class="d-inline-block "> Grilled Beef with potatoes </h3> 
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+                        <img src="images/menu-3.jpg" class="rounded-circle menu-pho-wi " >
+                    </div>
+                </div>
+                
+                <div class=" m-3 shadow ">
+                    <div class="media border p-4">
+                        <img src="images/menu-4.jpg" class="rounded-circle menu-pho-wi ml-2 mr-2" >
+                        <div class="media-body ml-2 ">
+                            <h3 class="d-inline-block  "> Ultimate Overload  </h3> 
+                            <p class="dahbi d-inline-block  font-weight-bolder ml-5  "> $26.50 </p>
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="m-3 shadow  ">
+                    <div class="media border p-4">
+                        <div class="media-body mr-2">
+                            <p class="dahbi d-inline-block font-weight-bolder mr-5 "> $29.00 </p>
+                            <h3 class="d-inline-block "> Grilled Crab with Onion </h3> 
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+                        <img src="images/menu-5.jpg" class="rounded-circle menu-pho-wi " >
+                    </div>
+                </div>
+                
+                <div class="m-3 shadow">
+                    <div class="media border p-4">
+                        <img src="images/menu-6.jpg" class="rounded-circle menu-pho-wi ml-2 mr-2" >
+                        <div class="media-body ml-2 ">
+                            <h3 class="d-inline-block "> Grilled Beef with potatoes</h3> 
+                            <p class="dahbi d-inline-block  font-weight-bolder ml-5 "> $50.99 </p>
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class=" m-3 shadow  ">
+                    <div class="media border p-4">
+                        <div class="media-body mr-2">
+                            <p class="dahbi d-inline-block font-weight-bolder mr-5 "> $30.10 </p>
+                            <h3 class="d-inline-block "> Ham & Pineapple </h3> 
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+                        <img src="images/menu-7.jpg" class="rounded-circle menu-pho-wi " >
+                    </div>
+                </div>
+                
+                <div class=" m-3 shadow ">
+                    <div class="media border p-4">
+                        <img src="images/menu-8.jpg" class="rounded-circle menu-pho-wi ml-2 mr-2" >
+                        <div class="media-body ml-2 ">
+                            <h3 class="d-inline-block "> Ultimate Overload  </h3> 
+                            <p class="dahbi d-inline-block  font-weight-bolder ml-5 "> $42.00 </p>
+                            <p>A small river named Duden flows by their place and supplies</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- REad blog --> 
+        <div class="red-blog"> 
+            <div class="d-flex flex-wrap justify-content-center ">
+                <div class="w-100"> 
+                    <div class="m-3 p-5 text-center">
+                        <p class="dahbi"> READ BLOG </p>
+                        <h2> Recent Blog   </h2>
+                    </div>
+                </div>
+                
+                <div class="text-center text-secondary p-2 w-25 m-3 ">
+                    <a  class="price-img-pri w-100 img-blog mb-2 " href="#" style="background-image: url(images/image_1.jpg)"></a>
+                    <p> JULY 03, 2019 ADMIN <span class="fa fa-comment ml-2 " ></span>  3 </p>
+                    <h6 class="text-dark font-weight-bold ">Even the all-powerful Pointing has no control about the blind texts</h6>
+                    <a href="#"class="dahbi"> READ MORE </a>
+                    
+
+                </div>
+                 <div class=" text-center text-secondary p-2 w-25 m-3 ">
+                    <a  class="price-img-pri w-100 img-blog mb-2 " href="#" style="background-image: url(images/image_2.jpg)"></a>
+                    <p> JULY 03, 2019 ADMIN <span class="fa fa-comment ml-2 " ></span>  3 </p>
+                   <h6 class="text-dark font-weight-bold ">Even the all-powerful Pointing has no control about the blind texts</h6>
+                    <a href="#"class="dahbi"> READ MORE </a>
+                    
+
+                </div>
+                
+                 <div class=" text-center text-secondary p-2 w-25 m-3">
+                    <a  class="price-img-pri w-100 img-blog mb-2 " href="#" style="background-image: url(images/image_3.jpg)"></a>
+                     <p> JULY 03, 2019 ADMIN <span class="fa fa-comment ml-2 " ></span>  3 </p>
+                     <h6 class="text-dark font-weight-bold">Even the all-powerful Pointing has no control about the blind texts</h6>
+                    <a href="#"class="dahbi"> READ MORE </a>
+
+                  </div>
+                
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- instagram photo -->
+        <div class="instagram"> 
+            
+            <div class="m-3 p-5 text-center ">
+                    <p class="dahbi"> PHOTOS </p>
+                    <h2> Instagram   </h2>
+            </div>
+            
+            <div class="d-flex " style="height:300px"> 
+                
+                <div class="flex-fill  m-1 " >
+                    <div class="w-100 h-100 back1 demo" style="background-image: url(images/insta-1.jpg)"          data-toggle="modal" data-target="#modal2" onclick="currentSlide(1)" >
+                        <div class="overlay  align-self-center">
+                            <span class="text-center w-100" ><i class="fab fa-instagram"></i></span> 
+                        </div>
+                    </div> 
+                 </div>
+                
+                
+                <div class="flex-fill  m-1 " >
+                    <div class="w-100 h-100 back1 demo " style="background-image: url(images/insta-2.jpg)"                 data-toggle="modal" data-target="#modal2" onclick="currentSlide(2)" >
+                        <div class="overlay  align-self-center">
+                            <span class="text-center w-100" ><i class="fab fa-instagram"></i></span> 
+                        </div>
+                    </div> 
+                 </div>
+                
+                
+                <div class="flex-fill  m-1 " >
+                    <div class="w-100 h-100 back1 demo" style="background-image: url(images/insta-3.jpg)"           data-toggle="modal" data-target="#modal2" onclick="currentSlide(3)" >
+                        <div class="overlay  align-self-center">
+                            <span class="text-center w-100" ><i class="fab fa-instagram"></i></span> 
+                        </div>
+                    </div> 
+                 </div>
+                
+                
+                <div class="flex-fill  m-1  " >
+                    <div class="w-100 h-100 back1 demo" style="background-image: url(images/insta-4.jpg)"          data-toggle="modal" data-target="#modal2" onclick="currentSlide(4)" >
+                        <div class="overlay  align-self-center">
+                            <span class="text-center w-100" ><i class="fab fa-instagram"></i></span> 
+                        </div>
+                    </div> 
+                 </div>
+                
+                
+                <div class="flex-fill  m-1 " >
+                    <div class="w-100 h-100 back1 demo " style="background-image: url(images/insta-5.jpg)"            data-toggle="modal" data-target="#modal2" onclick="currentSlide(5)"  >
+                        <div class="overlay  align-self-center">
+                            <span class="text-center w-100" ><i class="fab fa-instagram"></i></span> 
+                        </div>
+                    </div> 
+                 </div>
+
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" role="dialog">
+            <div class="modal-dialog modal-dialog-center modal-md"> 
+                <div class="modal-content content">
+                    <div class="mySlides">
+                        <img src="images/insta-1.jpg" class="w-100 h-100"   > 
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="images/insta-2.jpg" class="w-100 h-100"   > 
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="images/insta-3.jpg" class="w-100 h-100"   > 
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="images/insta-4.jpg" class="w-100 h-100"   > 
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="images/insta-5.jpg" class="w-100 h-100"   > 
+                    </div>
+                    
+                    <button type="button" class="next slibtn " onclick="plusSlides(1)"> 
+                        <i class="fa fa-arrow-right"> </i>
+                    </button>
+                    <button type="button" class="prev slibtn " onclick="plusSlides(-1)">
+                        <i class="fa fa-arrow-left"></i> 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        <!-- footer back -->      
+        <div class=" background-black   ">
+          <div class="container">
+              <div class="d-flex pt-5 pb-5 ">
+              <div class="w-25 m-3 ">
+                  <div class=""> 
+                      <h3 class="text-white">Roxandrea</h3>
+                  </div>
+                  <div class=" pt-3 ">
+                      <p class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                  <div class="text-white footer-icon pt-3">
+                      <span> <i class="fab fa-facebook" > </i></span>
+                      <span> <i class="fab fa-twitter" > </i></span>
+                      <span> <i class="fab fa-instagram" > </i></span>
+                      <span> <i class="fab fa-youtube" > </i></span>
+                  </div>
+              </div>
+              
+              
+              <div class="w-25 m-3 ">
+                  <div class="text-white ">
+                      <h3> Useful Links </h3>
+                  </div>
+                  <div class="pt-3"> 
+                      <a class="footer-link p-0 "  href="#"> BLOG </a>
+                      <a class="footer-link "  href="#"> ROOMS </a>
+                      <a class="footer-link "  href="#"> AMENITIES </a>
+                      <a class="footer-link "  href="#"> GIFT CARDS  </a>
+                  </div>
+                  
+              </div>
+              
+              
+              <div class="w-25 m-3  ">
+                  <div class="text-white ">
+                      <h3> Privacy </h3>
+                  </div>
+                  <div class="pt-3"> 
+                      <a class="footer-link p-0"  href="#"> Career </a>
+                      <a class="footer-link "  href="#"> About Us </a>
+                      <a class="footer-link "  href="#"> Contact Us </a>
+                      <a class="footer-link "  href="#"> Services  </a>
+                  </div>
+                  
+              </div> 
+              
+              
+              <div class="w-25 m-3 ">
+                  <div class="text-white ">
+                      <h3> Have a Questions? </h3>
+                  </div>
+                  <div class="pt-3">
+                      <div class="d-flex">
+                          <span class="mr-4">  <i class="fa fa-map-marker text-white"></i> </span>
+                          <p class="d-inline"> 203 Fake St. Mountain View, San Francisco, California, USA </p>
+                      </div>
+                      
+                      <div class="d-flex pt-3">
+                          <span class="mr-4">  < i class="fa fa-phone text-white"></i> </span>
+                          <p class="d-inline"> 	+2 392 3929 210  </p>
+                      </div>
+                      <div class="d-flex pt-3">
+                          <span class="mr-4">   <i class="fa fa-envelope text-white"></i> </span>
+                          <p class="d-inline"> 	arafat1994@outlook.sa  </p> 
+                      </div>
+            
+                      
+                      
+                  </div>
+                  
+              </div>
+              </div>
+              <div class="d-flex text-center ">
+                  <p class="w-100"> Copyright ©2019 All rights reserved | This template is made with                       <i class="fa fa-heart text-danger"></i>  by ARAFAT.ALI </p>
+              </div>
+          </div>
+        </div>  
+        
+        
+        
+
+
+        <!--<script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) 
+            {
+                showSlides(slideIndex += n);
+            }
+            function currentSlide(n) 
+            {
+                showSlides(slideIndex = n);
+            }
+
+            
+            
+            
+            function showSlides(n) 
+            {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > slides.length)
+                {
+                    slideIndex = 1;
+                }
+                
+                if (n < 1) 
+                {
+                    slideIndex = slides.length;
+                }
+                
+                for (i = 0; i < slides.length; i++) 
+                {
+                    slides[i].style.display = "none";
+                }
+                
+                for (i = 0; i < dots.length; i++) 
+                {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
+        </script> --> 
+        <script>
+        
+      /*  function func()
+        {
+            $(document).ready(function() { $(".carousel-caption").animate({top:"30%"});});
+        }
+        
+        
+      window.onscroll = function() {myFunction()};
+        function myFunction() {
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) 
+            {
+                document.getElementById("myheader").className = "header22";
+                $(".a2").css({"color":"black" , "opacity":"1"}) ;
+                $(".active").css("color","#edb305");
+                $(".a2").mouseover(function(){$(this).css("color","#edb305");});
+                $(".a2").mouseout(function(){$(this).css("color","black");});
+                $("#brand").css("color","black");
+                
+                
+            }
+            else {
+                document.getElementById("myheader").className = "header";
+                $(".a2").css({"color":"white" , "opacity":""}) ;
+                $(".a2").mouseover(function(){$(this).css("color","white");});
+                $(".a2").mouseout(function(){$(this).css("color","white");});
+                $(".active").css("color","white");
+                $("#brand").css("color","white");
+                
+        
+            }
+            }*/
+      
+        </script>
+        <script src="navigation-bar-script.js"> </script>
+        <script src="gallery.js"> </script>
+        
+        
+    
+    </body>
+
+</html>
